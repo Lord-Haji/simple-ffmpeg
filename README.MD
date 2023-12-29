@@ -23,13 +23,13 @@ Before proceeding, ensure you have:
 
 Install `ffmpeg` using this simple command:
 
-Stable Release:
+**Stable Release:**
 
 ```bash
 curl -L https://raw.githubusercontent.com/Lord-Haji/simple-ffmpeg/main/simple_ffmpeg.sh | sudo bash
 ```
 
-Bleeding Edge Git Build: (Add -g or --git flag as standard input)
+**Bleeding Edge Git Build: (Add -g or --git flag as standard input)**
 
 ```bash
 curl -L https://raw.githubusercontent.com/Lord-Haji/simple-ffmpeg/main/simple_ffmpeg.sh | sudo bash -s -- -g
