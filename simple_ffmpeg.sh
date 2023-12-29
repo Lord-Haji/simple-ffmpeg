@@ -11,7 +11,6 @@ install_ffmpeg() {
     local download_url="${url}/${tarball}"
     local temp_dir=$(mktemp -d) || { echo "Failed to create temp directory"; exit 1; }
 
-    # Improved print statement
     local build_desc="release"
     if [ "$build_type" == "git" ]; then
         build_desc="latest Git"
@@ -38,7 +37,7 @@ install_ffmpeg() {
 
 arch=$(uname -m)
 
-# Determine the URL and build type based on the flag
+# Set the url and build type based on the command line argument
 url=$RELEASE_URL
 build_type="release"
 if [[ "$1" == "-g" ]] || [[ "$1" == "--git" ]]; then
