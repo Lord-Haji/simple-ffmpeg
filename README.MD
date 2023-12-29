@@ -24,7 +24,7 @@ Before proceeding, ensure you have:
 Install `ffmpeg` using this simple command:
 
 ```bash
-curl -L https://raw.githubusercontent.com/Lord-Haji/simple-ffmpeg/main/install_ffmpeg.sh | sudo bash
+curl -L https://raw.githubusercontent.com/Lord-Haji/simple-ffmpeg/main/simple_ffmpeg.sh | sudo bash
 ```
 
 ## How It Works
